@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "FADIBIWOVS9SSOAE",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 11221,
+        "processId": 28621,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -66,6 +66,24 @@
             "deviceId": "FADIBIWOVS9SSOAE",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 11221,
+            "exited": false
+        },
+        {
+            "deviceId": "FADIBIWOVS9SSOAE",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 26574,
+            "exited": false
+        },
+        {
+            "deviceId": "FADIBIWOVS9SSOAE",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 27151,
+            "exited": false
+        },
+        {
+            "deviceId": "FADIBIWOVS9SSOAE",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 28621,
             "exited": false
         }
     ],
