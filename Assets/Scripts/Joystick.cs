@@ -17,16 +17,16 @@ public class Joystick : MonoBehaviour
 {
     public JoystickType typeOfJoystick;
     [Header("Return data interval")]
-    public float x;
-    public float y;
+    public int x;
+    public int y;
 
     private GameObject joystickKnob;
     private Slider horisontalSlider;
     private Slider verticalSlider;
     private Button horisontalSliderButton;
     private Button verticalSliderButton;
-    private float maxValue = 250;
-    private float minValue = -250;
+    private int maxValue = 250;
+    private int minValue = -250;
 
     // Start is called before the first frame update
 
@@ -64,17 +64,17 @@ public class Joystick : MonoBehaviour
         CheckKnob();
     }
 
-    private float NormalizeData(float value)
+    private int NormalizeData(float value)
     {
-        return (y - x) * (value - minValue) / (maxValue - minValue) + x;
+        return (y - x) * ((int)value - minValue) / (maxValue - minValue) + x;
     }
-    public Vector2 GetRawData()
+    public Vector2Int GetRawData()
     {
-        return new Vector2(joystickKnob.transform.localPosition.x, joystickKnob.transform.localPosition.y);
+        return new Vector2Int((int)joystickKnob.transform.localPosition.x, (int)joystickKnob.transform.localPosition.y);
     }
-    public Vector2 GetData()
+    public Vector2Int GetData()
     {
-        return new Vector2(NormalizeData(joystickKnob.transform.localPosition.x), NormalizeData(joystickKnob.transform.localPosition.y));
+        return new Vector2Int(NormalizeData(joystickKnob.transform.localPosition.x), NormalizeData(joystickKnob.transform.localPosition.y));
     }
     private void InitHorisontalSlider()
     {

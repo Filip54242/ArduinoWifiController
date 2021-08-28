@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "FADIBIWOVS9SSOAE",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 28621,
+        "processId": 17059,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -84,6 +84,54 @@
             "deviceId": "FADIBIWOVS9SSOAE",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 28621,
+            "exited": false
+        },
+        {
+            "deviceId": "FADIBIWOVS9SSOAE",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 16452,
+            "exited": false
+        },
+        {
+            "deviceId": "FADIBIWOVS9SSOAE",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 18834,
+            "exited": false
+        },
+        {
+            "deviceId": "FADIBIWOVS9SSOAE",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 19473,
+            "exited": false
+        },
+        {
+            "deviceId": "FADIBIWOVS9SSOAE",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 20757,
+            "exited": false
+        },
+        {
+            "deviceId": "FADIBIWOVS9SSOAE",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 22946,
+            "exited": false
+        },
+        {
+            "deviceId": "FADIBIWOVS9SSOAE",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 28747,
+            "exited": false
+        },
+        {
+            "deviceId": "FADIBIWOVS9SSOAE",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 5105,
+            "exited": false
+        },
+        {
+            "deviceId": "FADIBIWOVS9SSOAE",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 17059,
             "exited": false
         }
     ],
