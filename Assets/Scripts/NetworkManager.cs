@@ -73,8 +73,6 @@ public class NetworkManager : MonoBehaviour
                         Array.Copy(bytes, 0, incommingData, 0, length);
                         // Convert byte array to string message.
                         var serverMessage = Encoding.ASCII.GetString(incommingData);
-
-                        Debug.Log(serverMessage);
                         //Debug.Log(serverMessage);
                         if (!serverMessage.ToLower().Equals("ok"))
                         {
